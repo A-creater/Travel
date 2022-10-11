@@ -1,0 +1,38 @@
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 2%;
+}
+.container {
+  display: grid;
+  
+  grid-column: span 3;
+  background-color: darkgray;
+}
+
+.block{
+  grid-row: span 3;
+}
+div{
+  border: 3px solid black;
+}
+.row {
+
+
+}
+.col {
+}
